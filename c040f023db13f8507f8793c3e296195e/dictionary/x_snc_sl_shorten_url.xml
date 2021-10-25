@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Shorten url" max_length="40" name="x_snc_sl_shorten_url" type="collection">
+        <element label="custom_url" max_length="2048" name="u_custom_url" type="string"/>
+        <element label="Hash" max_length="40" name="u_hash" type="string"/>
+        <element label="Owner" max_length="40" name="u_owner_email" type="string"/>
+        <element label="shortner_url" max_length="40" name="u_shortner_url" type="string"/>
+        <element label="source_url" max_length="2048" name="u_source_url" type="string"/>
+    </element>
+</database>
